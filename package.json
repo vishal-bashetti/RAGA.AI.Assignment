@@ -1,0 +1,15 @@
+{
+  "name": "raga-ai-monorepo",
+  "private": true,
+  "engines": {
+    "node": ">=24.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @raga/host dev",
+    "build": "pnpm --filter @raga/host build",
+    "preview": "pnpm --filter @raga/host preview",
+    "type-check": "pnpm --filter @raga/host exec tsc --noEmit",
+    "lint": "pnpm --filter @raga/host lint"
+  }
+}
