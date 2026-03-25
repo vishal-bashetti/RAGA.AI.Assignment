@@ -20,6 +20,11 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@raga/ui": ["packages/ui/src/index.ts"],
+      "@raga/shared": ["packages/shared/src/index.ts"]
+    }
   }
 }

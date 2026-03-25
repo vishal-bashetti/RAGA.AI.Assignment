@@ -1,3 +1,2 @@
-// Feature: Auth
-// Phase 2: Firebase Authentication implementation
-export {};
+export { default as LoginPage } from './LoginPage';
+export { default as ProtectedRoute } from './ProtectedRoute';
